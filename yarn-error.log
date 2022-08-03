@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --dev hardhat
+
+PATH: 
+  /home/aakarsh/solang/target/release:/home/aakarsh/Downloads/binary/llvm13.0/include:/home/aakarsh/Downloads/binary/llvm13.0/bin:/home/aakarsh/Downloads/binary/llvm13.0/lib:/home/aakarsh/.local/share/solana/install/active_release/bin:/home/aakarsh/Work/Algorand/Reach:/home/aakarsh/.local/share/solana/install/active_release/bin:/home/aakarsh/solang/target/release:/home/aakarsh/Downloads/binary/llvm13.0/include:/home/aakarsh/Downloads/binary/llvm13.0/bin:/home/aakarsh/Downloads/binary/llvm13.0/lib:/home/aakarsh/.local/share/solana/install/active_release/bin:/home/aakarsh/Work/Algorand/Reach:/home/aakarsh/.local/share/solana/install/active_release/bin:/home/aakarsh/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/aakarsh/Android/Sdk/emulator:/home/aakarsh/Android/Sdk/tools:/home/aakarsh/Android/Sdk/tools/bin:/home/aakarsh/Android/Sdk/platform-tools:/home/aakarsh/Android/Sdk/emulator:/home/aakarsh/Android/Sdk/tools:/home/aakarsh/Android/Sdk/tools/bin:/home/aakarsh/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "SushiBar",
+    "version": "1.0.0",
+    "description": "Sushibar forking",
+    "main": "index.js",
+    "author": "Aakarsh Verma",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
